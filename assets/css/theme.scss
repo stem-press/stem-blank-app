@@ -1,0 +1,18 @@
+$mq-responsive: true;
+$mq-breakpoints: (
+    mobile:  320px,
+    iphone-x: 375px,
+    phablet: 414px,
+    phablet-next: 415px,
+    tablet:  740px,
+    tablet-wide:  860px,
+    desktop: 980px,
+    wide:    1300px,
+    design: 1560px
+);
+
+// https://github.com/sass-mq/sass-mq
+@import "~sass-mq/mq";
+@import "~normalize-scss/sass/normalize";
+
+@include normalize();
