@@ -25,6 +25,12 @@ return [
             "width" => 1560,
             "height" => 550,
             "crop" => true
+        ],
+        'small-square' => [
+            'name' => "Small Square",
+            "width" => 640,
+            "height" => 640,
+            "crop" => true
         ]
 	],
 

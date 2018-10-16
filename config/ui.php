@@ -71,6 +71,28 @@ return [
 		"footer" => "Footer"
 	],
 
+    // For creating blocks in the gutenberg editor, requires ACF Pro 5.8
+    "blocks" => [
+        // Specify a class based block
+        "\\stem\\Blocks\\SampleBlock",
+        // For simple blocks, just define the props
+        [
+            "title" => "Another Sample Block",
+            "description" => "Cool stuff",
+            "template" => "blocks/another-sample",
+            "category" => "Cool",
+            "icon" => "author-link",
+            "keywords" => ['sample']
+        ],
+        // For class based blocks, you can override properties
+        [
+            "class" => "\\stem\\Blocks\\SampleBlock",
+            "title" => "Sample Block Variation",
+            "description" => "More cool stuff",
+            "template" => "blocks/sampleblock-alternate",
+        ]
+    ],
+
     // Sidebar Areas
 	"sidebars" => [
 	],
