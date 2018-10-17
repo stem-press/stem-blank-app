@@ -75,6 +75,8 @@ return [
     "blocks" => [
         // Specify a class based block
         "\\stem\\Blocks\\SampleBlock",
+        // Specify a class based block
+        "\\stem\\Blocks\\SampleBlockWithFields",
         // For simple blocks, just define the props
         [
             "title" => "Another Sample Block",
